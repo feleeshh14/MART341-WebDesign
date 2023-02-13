@@ -1,3 +1,0 @@
-- IP addresses are like house addresses and DNS is an organized hierarchy of IP addresses; so it’s used as a way to look up these addresses, almost like a phone book. 
-- Cookies are tiny pieces of data that are collected over time, this makes it easier to retrieve data quicker as long as they don’t build up over time. 
-- The three essential parts of a URL are protocol, domain, and paths.
