@@ -1,0 +1,3 @@
+Browsers are used to gain aceess to the website from whatever device you are using. The Browser will trnaslate the webpages to that device so that everything comes through. I currently use Chrome and Safari unless I am having trouble viewing a speciifc webste; then  I go ahead and use other browser to help troubleshoot and find the source to my problem.
+
+![](images/Screen%20Shot%202023-02-19%20at%206.10.52%20PM.png)
