@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: ('Poppins-Bold');
+    src: url('..font/Poppins-Bold.ttf'); format: ('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: ('Poppins-ExtraLight');
+    src: url('..font/Poppins-ExtraLight.ttf'); format: ('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: ('Poppins-ExtraLightItalic');
+    src: url('..font/Poppins_ExtraLightItalic.ttf'); format: ('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: ('Poppins-SemiBold');
+    src: url('..font/SemiBold.ttf'); format: ('truetype');
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: ('Poppins-Thin');
+    src: url('..font/Thin.ttf'); format: ('trueptype');
+    font-weight: 100;
+}
