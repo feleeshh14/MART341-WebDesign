@@ -1,0 +1,174 @@
+
+
+.content-dividers {
+    background-color: #122518;
+}
+
+body {
+    background-color:#122518
+}
+
+h1 {
+    color:#000000;
+    text-align: center;
+}
+
+h2 {
+    color:#000000;
+    text-align: center;
+}
+
+h1:hover {
+    color:#9f8108
+}
+
+h2:hover {
+    color:#9f8108
+}
+
+#imageborder:hover {
+    background-color: black;
+}
+
+#imageborder {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+
+}
+
+.description {
+    font-family: Poppins-ExtraLight ;
+    font-size: 50px ;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin: auto;
+    color: #000000;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+
+}
+
+#list {
+    font-family: Poppins-ExtraLight ;
+    font-size: 50px ;
+    letter-spacing: 0.2em;
+    margin: auto;
+    color: #000000;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+}
+
+.Book-link:link {
+    color:#000000;
+}
+
+.Book-link:visited {
+    color:#9f8108;
+}
+
+title {
+    color:#ffffff
+}
+
+/*menu styling*/
+
+header {
+    background-color: #000000;
+    position: fixed ;
+    text-align: right ;
+    top: 0px ;
+    height: 4em;
+    width: 99%;
+    font: Poppins-SemiBold ;
+
+}
+
+#top-bar {
+    margin-top: 7em;
+    padding: 1em;
+}
+
+/*styling menu items*/
+
+.menu-item {
+    display: inline-block;
+    margin: 1em 0em 1.5em 1em ;
+    color:#000000 ;
+    background-color:#122518 ;
+    padding: .5em 1em;
+    border-radius: 1em;
+    min-width: 6em ;
+    text-align: center ;
+
+}
+
+.menu-item:hover {
+    background-color: #9f8108;
+}
+/*styling my links*/
+
+.menu-item a {
+    color:#ffffff ;
+    text-decoration: none;
+}
+
+/*styling dropdown menu*/
+
+.dropdown-content {
+    display: none;
+    color: #ffffff ;
+    background-color: #122518;
+    position: absolute ;
+    margin: .5em 0 0 -1em;
+    background-color: #122518;
+    z-index: 1;
+    border-radius: 1em ;
+}
+
+.dropdown-item {
+    color:#ffffff ;
+}
+
+.dropdown-content a {
+    color:#ffffff ;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block ;
+}
+
+/*styling the dropdown item display*/
+
+.dropdown-item {
+    display: block ;
+    text-align: left ;
+    margin: 0px ;
+    padding: 0.5em 1em .5em 1em;
+    min-width: 6em;
+
+}
+
+.dropdown-item:hover {
+    background-color:#9f8108 ;
+    border-radius: 1em ;
+}
+
+/*styling site-name*/
+
+.site-name {
+    color:#ffffff ;
+    text-align: left;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    letter-spacing: 0.3em;
+    float: left;
+    font-weight: bold;
+    margin: 1em -.5em;
+}
