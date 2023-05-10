@@ -1,0 +1,235 @@
+/*styling header */
+
+header {
+    background-color: #ebe7f8;
+    width: 100%;
+    height: 6em;
+    position: fixed;
+    top:0px;
+    bottom: 0px;
+    text-align: center;
+    align-content: center;
+    padding-top: 2.5em;
+    font-family: Bebas_Neue;
+    font-weight:400;
+}
+
+/*styling site title*/
+
+.site-name {
+    display:none;
+}
+
+/*styling site homepage main section*/
+
+#logo-picture-2 {
+    margin-top: 0px;
+    width:100%;
+}
+
+body {
+    background-color:#ebe7f8;
+}
+
+/*styling menu item*/
+
+.menu-item {
+    text-align:center;
+    display:inline-block;
+    list-style-type: none;
+    letter-spacing: .4em;
+    margin: auto;
+    background-color: #b9a5f8;
+    border-radius: 3em;
+    color:black;
+    padding: .5em;
+    font-family: Bebas_Neue;
+    font-weight: 400;
+}
+
+
+.menu-item a {
+    text-decoration: none;
+    padding: 1em;
+    color:black;
+}
+.menu-item a:hover {
+    background-color: blueviolet;
+    border-radius: 3em;
+    padding: .5em;
+    letter-spacing: .6em;
+    font-family: Bebas_Neue;
+    font-weight:400;
+
+}
+/*styling home page */
+
+#home-page-logo {
+    position: relative;
+    min-width:30%;
+    max-width: 100%;
+    text-align: center;
+    align-content: center;
+    background-position: center center ;
+    margin-top: 100px;
+    background-color: #8173ae;
+}
+
+.background {
+    background-color: #8173ae;
+}
+
+/*editing buttons on homepage*/
+
+#hpbutton1 {
+    float: left;
+    margin-top: 10%;
+    font-size: 50px;
+    margin-left: 8%;
+    border-radius: 3em;
+    border:solid 3px;
+    padding: 1em;
+    background-color: #ebe7f8;
+    border-color: #8173ae;
+    font-family: Bebas_Neue;
+    font-weight: 400;
+}
+
+#hpbutton1 a {
+    text-decoration: none;
+}
+#hpbutton2 a {
+    text-decoration: none;
+}
+
+#hpbutton1:hover {
+    background-color: blueviolet;
+}
+
+#hpbutton2 {
+    float: right;
+    margin-top: 10% ;
+    margin-right: 8%;
+    font-size: 50px;
+    border-radius: 3em;
+    border:solid 3px;
+    padding: 1em;
+    background-color: #ebe7f8;
+    border-color: #8173ae;
+    font-family: Bebas_Neue;
+    font-weight: 400;
+    text-decoration: none;
+}
+#hpbutton2:hover {
+    background-color: blueviolet;
+}
+
+@media (max-width:768px){
+    #hpbutton1 {
+        display: block;
+    }
+}
+
+@media (max-width:768px){
+    #hpbutton2 {
+        display: block;
+    }
+}
+
+.section-two {
+    width: 100% ;
+    background-color: #8173ae;
+}
+
+/*styling gallery page*/
+
+.container {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.photo-gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width:768px){
+    .photo-gallery{
+        flex-direction: column;
+    }
+}
+
+.gallery-body {
+    background-color: #ebe7f8;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*styling booking form */
+
+.booking-form {
+    margin-top: 10em;
+    padding:10em;
+    text-align: center;
+    background-color: #8173ae;
+    border: black 3px solid;
+    font-family: Bebas_Neue;
+    font-family: 400;
+}
+
+.nav a {
+    text-align: center;
+    float: center;
+    text-decoration: none;
+}
+/*styling paragraphs in the about me page */
+
+.bio {
+    text-align: center;
+    padding: 5em;
+    font-family: Bebas_Neue;
+    font-weight: 400;
+}
+
+h1 {
+    margin-top: 25%;
+    text-align: center;
+    font-family: Bebas_Neue;
+    font-weight: 400;
+}
+
+p {
+    font-family: Bebas_Neue;
+    font-weight: 400;
+}
+
+/*styling nav on about me pages */
+
+.selfie {
+    border: 3px solid;
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20%
+}
+
+/*styling for fonts*/
+title {
+    font-family: Bebas_Neue ;
+    font-weight: 400;
+}
